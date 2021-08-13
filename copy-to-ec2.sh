@@ -1,2 +1,2 @@
 #!/bin/bash
-scp -r -i ~/personal-aws.pem ./program/* ubuntu@13.229.209.129:/home/ubuntu/app
+scp -r -i ~/aws_ec2.pem ./program/* ubuntu@3.144.125.44:/home/ubuntu/app
