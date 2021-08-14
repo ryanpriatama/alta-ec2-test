@@ -24,6 +24,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+	DB.AutoMigrate(&User{})
 	port := os.Getenv("HTTP_PORT")
 	if port == "" {
 		port = ":80"
